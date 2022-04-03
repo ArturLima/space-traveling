@@ -1,1 +1,32 @@
-// TODO
+.container {
+  margin: 0 auto;
+}
+
+.postContent {
+  max-width: 720px;
+  margin: 0 auto;
+  word-wrap: break-word;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3.625rem;
+  }
+  .timeContainer {
+    display: flex;
+    margin: 1.5rem 0 4rem;
+    div {
+      margin: 0 2rem 0 0;
+      font-size: 0.875rem;
+      color: #bbbbbb;
+
+      svg {
+        margin-right: 0.5rem;
+      }
+
+      & + div {
+        margin-left: 1.5rem;
+      }
+    }
+  }
+}
